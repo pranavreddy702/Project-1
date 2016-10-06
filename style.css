@@ -1,0 +1,36 @@
+#mario  {
+position: absolute;
+width: 75px;
+height: 75px;
+top: 200px;
+z-index: 1000;
+float: left;
+left: 0px;
+content: url(http://static1.thcdn.com/design-assets/products/11089892/pic3.png);
+}
+
+#flexbox {
+  position: absolute;
+  background: url(http://www.clipartkid.com/images/485/clouds-background-png-clipart-panda-free-clipart-images-WUKb7e-clipart.jpg);
+  height: 600px;
+  width: 1100px;
+  top: 60px;
+  left: 100px;
+}
+
+
+
+.snowflakes {
+    top:25px;
+    left:90px;
+    position:absolute;
+    z-index:200;
+    width:10px;
+    height:10px;
+    background:white;
+}
+
+body {background-color:black;}
+
+
+
