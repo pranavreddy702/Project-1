@@ -56,6 +56,35 @@ $("#btn1").click(function() {
     loop_one();
 });
 
+
+// Box 3
+
+$("#btn1").click(function() {
+    function loop_one() {
+      var randomNumber = (Math.floor(Math.random() * 20) * 1000);
+        $('#two').css({left: 970, top: (Math.floor(Math.random() * 2) * 400)});
+        $('#two').delay(3000).animate ({left: '-=970',}, randomNumber , 'swing', function() {
+            loop_one();
+        });
+    }
+    loop_one();
+});
+
+// Box 4
+
+$("#btn1").click(function() {
+    function loop_one() {
+      var randomNumber = (Math.floor(Math.random() * 20) * 1000);
+        $('#three').css({left: 970, top: (Math.floor(Math.random() * 2) * 400)});
+        $('#three').delay(3000).animate ({left: '-=970',}, randomNumber , 'swing', function() {
+            loop_one();
+        });
+    }
+    loop_one();
+});
+
+
+
 // Check if the box collides with Mario
 // Alert a message if box collides with mario
 

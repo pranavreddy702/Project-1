@@ -25,35 +25,47 @@ content: url(http://static1.thcdn.com/design-assets/products/11089892/pic3.png);
 
 #one {
   position:absolute;
-  background-color:red;
-  left:970px;
-  width:25px;
-  height:25px;
+  content: url(http://vignette4.wikia.nocookie.net/p__/images/f/f5/SONIC_LOST_WORLD_E3_FINAL_COLOURS_SONIC.png/revision/latest?cb=20150929212833&path-prefix=protagonist);
+  background-color:transparent;
+  left:930px;
+  width:75px;
+  height:75px;
   margin:5px;
    top: 400px;
 }
 
 .bomb {
   position:absolute;
-  background-color:blue;
-  left:970px;
-  width:25px;
-  height:25px;
+  content: url(http://vignette4.wikia.nocookie.net/p__/images/f/f5/SONIC_LOST_WORLD_E3_FINAL_COLOURS_SONIC.png/revision/latest?cb=20150929212833&path-prefix=protagonist);
+  background-color:transparent;
+  left:930px;
+  width:75px;
+  height:75px;
   margin:5px;
   top: 100px;
 }
 
-#bomb_three {
+#two {
+  content: url(http://vignette4.wikia.nocookie.net/p__/images/f/f5/SONIC_LOST_WORLD_E3_FINAL_COLOURS_SONIC.png/revision/latest?cb=20150929212833&path-prefix=protagonist);
   position:absolute;
-  background-color:black;
-  left:970px;
-  width:25px;
-  height:25px;
+  background-color:transparent;
+  left:930px;
+  width:75px;
+  height:75px;
   margin:5px;
   top: 100px;
 }
 
-
+#three {
+  content: url(http://vignette4.wikia.nocookie.net/p__/images/f/f5/SONIC_LOST_WORLD_E3_FINAL_COLOURS_SONIC.png/revision/latest?cb=20150929212833&path-prefix=protagonist);
+  position:absolute;
+  background-color:transparent;
+  left:930px;
+  width:75px;
+  height:75px;
+  margin:5px;
+  top: 100px;
+}
 
 body {background-color:white;}
 
