@@ -76,13 +76,51 @@ $("#btn1").click(function() {
     function loop_one() {
       var randomNumber = (Math.floor(Math.random() * 20) * 1000);
         $('#three').css({left: 970, top: (Math.floor(Math.random() * 2) * 400)});
-        $('#three').delay(3000).animate ({left: '-=970',}, randomNumber , 'swing', function() {
+        $('#three').delay(4000).animate ({left: '-=970',}, randomNumber , 'swing', function() {
             loop_one();
         });
     }
     loop_one();
 });
 
+// Box 5
+
+$("#btn1").click(function() {
+    function loop_one() {
+      var randomNumber = (Math.floor(Math.random() * 20) * 1000);
+        $('#four').css({left: 970, top: (Math.floor(Math.random() * 2) * 400)});
+        $('#four').delay(5000).animate ({left: '-=970',}, randomNumber , 'swing', function() {
+            loop_one();
+        });
+    }
+    loop_one();
+});
+
+// Box 6
+
+$("#btn1").click(function() {
+    function loop_one() {
+      var randomNumber = (Math.floor(Math.random() * 20) * 1000);
+        $('#five').css({left: 970, top: (Math.floor(Math.random() * 2) * 400)});
+        $('#five').delay(6000).animate ({left: '-=970',}, randomNumber , 'swing', function() {
+            loop_one();
+        });
+    }
+    loop_one();
+});
+
+//Box 7
+
+$("#btn1").click(function() {
+    function loop_one() {
+      var randomNumber = (Math.floor(Math.random() * 20) * 1000);
+        $('#six').css({left: 970, top: (Math.floor(Math.random() * 2) * 400)});
+        $('#six').delay(7000).animate ({left: '-=970',}, randomNumber , 'swing', function() {
+            loop_one();
+        });
+    }
+    loop_one();
+});
 
 
 // Check if the box collides with Mario
@@ -112,7 +150,7 @@ function checkCollisions(){
   var verticalMatch = comparePositions(pos[1], pos2[1]);
   var match = horizontalMatch && verticalMatch;
   if (match) {
-    alert("You Lose !!!");
+    alert("You found the real Sonic!!!");
   }
 }
 
@@ -128,7 +166,7 @@ var interval = setInterval(function() {
 
     if (seconds_left <= 0)
     {
-       document.getElementById('counter').innerHTML = alert("You Win!");
+       document.getElementById('counter').innerHTML = alert("You Lose!");
        clearInterval(interval);
     }
 }, 1000);

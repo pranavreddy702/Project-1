@@ -1,7 +1,7 @@
 # Project-1
 Making a game
 
-Description- Mario will automatically move up and down and the user will try to navigate him to the end while objects fly towards him
+Description- FInd the real Sonic in under 60 sec. There will be many Sonics but only one is real. 
 
 
 

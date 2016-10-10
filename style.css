@@ -9,6 +9,9 @@ left: 0px;
 content: url(http://static1.thcdn.com/design-assets/products/11089892/pic3.png);
 }
 
+
+/*Add media query for flexbox*/
+/*@media only screen and (max-width: 500px){*/
 #flexbox {
   position: absolute;
   /*background: url(http://www.clipartkid.com/images/485/clouds-background-png-clipart-panda-free-clipart-images-WUKb7e-clipart.jpg);*/
@@ -21,7 +24,7 @@ content: url(http://static1.thcdn.com/design-assets/products/11089892/pic3.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+/*}*/
 
 #one {
   position:absolute;
@@ -67,8 +70,46 @@ content: url(http://static1.thcdn.com/design-assets/products/11089892/pic3.png);
   top: 100px;
 }
 
-body {background-color:white;}
 
+#four {
+  content: url(http://vignette4.wikia.nocookie.net/p__/images/f/f5/SONIC_LOST_WORLD_E3_FINAL_COLOURS_SONIC.png/revision/latest?cb=20150929212833&path-prefix=protagonist);
+  position:absolute;
+  background-color:transparent;
+  left:930px;
+  width:75px;
+  height:75px;
+  margin:5px;
+  top: 100px;
+}
+
+#five {
+  content: url(http://vignette4.wikia.nocookie.net/p__/images/f/f5/SONIC_LOST_WORLD_E3_FINAL_COLOURS_SONIC.png/revision/latest?cb=20150929212833&path-prefix=protagonist);
+  position:absolute;
+  background-color:transparent;
+  left:930px;
+  width:75px;
+  height:75px;
+  margin:5px;
+  top: 100px;
+}
+
+#six {
+  content: url(http://vignette4.wikia.nocookie.net/p__/images/f/f5/SONIC_LOST_WORLD_E3_FINAL_COLOURS_SONIC.png/revision/latest?cb=20150929212833&path-prefix=protagonist);
+  position:absolute;
+  background-color:transparent;
+  left:930px;
+  width:75px;
+  height:75px;
+  margin:5px;
+  top: 100px;
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+body {background-color:white;}
+}
 
 /*Align the buttons so that they are easy to use*/
 
@@ -91,18 +132,20 @@ body {background-color:white;}
 #cloud-scroll {
 width: 1000px;
 height: 500px;
-background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/130527/clouds-full.png);
--webkit-animation: backgroundScroll 20s linear infinite;
-animation: backgroundScroll 20s linear infinite;
+background: url(https://i.ytimg.com/vi/rZFCDlNYMRw/maxresdefault.jpg);
+-webkit-animation: backgroundScroll 15s linear infinite;
+animation: backgroundScroll 15s linear infinite;
+
 }
 
+/*Determine how long and fast the background will scroll*/
 @-webkit-keyframes backgroundScroll {
 from {background-position: 0 0;}
-to {background-position: -400px 0;}
+to {background-position: -300px 0;}
 }
 
 @keyframes backgroundScroll {
 from {background-position: 0 0;}
-to {background-position: -400px 0;}
+to {background-position: -300px 0;}
 }
 
