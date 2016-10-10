@@ -1,0 +1,18 @@
+body {
+  background-color: blue;
+}
+
+.flexbox {
+  position: absolute;
+  background: url(https://s-media-cache-ak0.pinimg.com/originals/2f/f7/22/2ff72250c5c4843b010ef9a923610fec.jpg);
+  height: 600px;
+  width: 1100px;
+  top: 30px;
+  left: 90px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
