@@ -4,7 +4,7 @@ body {
 
 .flexbox {
   position: absolute;
-  background: url(https://s-media-cache-ak0.pinimg.com/originals/2f/f7/22/2ff72250c5c4843b010ef9a923610fec.jpg);
+  background: url(http://cdn02.nintendo-europe.com/media/images/10_share_images/portals_3/SI_Hub_Mario_Portal.jpg);
   height: 600px;
   width: 1100px;
   top: 30px;
@@ -15,4 +15,69 @@ body {
   background-size: cover;
 }
 
+nav {
+    width: 100%;
+      border-right: none;
+}
 
+nav ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+nav ul li {
+   /* font-size: 16px;*/
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    list-style-type:disc ;
+    font-size: 16px;
+    font-weight: bolder;
+    color:green;
+    float: right;
+    text-align: center;
+    width: 15%;
+}
+
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 2px 0;
+}
+
+
+
+
+.AppStore {
+content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/1024px-Download_on_the_App_Store_Badge.svg.png);
+position: fixed;
+z-index: 100;
+bottom: 170px;
+margin-left: 140px;
+height: 75px;
+width:200px;
+}
+
+.Android {
+content: url(http://find-out.co/wp-content/uploads/2013/10/find_out_en_generic_rgb_wo.png);
+position: fixed;
+z-index: 100;
+bottom: 80px;
+margin-left: 140px;
+height: 75px;
+width:200px;
+}
+
+#start {
+   font-size: 18px;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    background-color: #f44336;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}

@@ -23,7 +23,7 @@ content: url(http://static1.thcdn.com/design-assets/products/11089892/pic3.png);
 }
 
 
-.bomb_one {
+#one {
   position:absolute;
   background-color:red;
   left:970px;
@@ -54,19 +54,11 @@ content: url(http://static1.thcdn.com/design-assets/products/11089892/pic3.png);
 }
 
 
-.snowflakes {
-    top:25px;
-    left:90px;
-    position:absolute;
-    z-index:200;
-    width:5px;
-    height:5px;
-
-    background:white;
-}
-
 
 body {background-color:white;}
+
+
+/*Align the buttons so that they are easy to use*/
 
 #up {
   margin-left:20px;
@@ -80,6 +72,9 @@ body {background-color:white;}
   text-align: center;
   font-size: 30px;
 }
+
+/*Create a scrolling background*/
+
 
 #cloud-scroll {
 width: 1000px;
