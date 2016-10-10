@@ -123,6 +123,32 @@ $("#btn1").click(function() {
 });
 
 
+// Box 8
+
+$("#btn1").click(function() {
+    function loop_one() {
+      var randomNumber = (Math.floor(Math.random() * 20) * 1000);
+        $('#seven').css({left: 970, top: (Math.floor(Math.random() * 2) * 400)});
+        $('#seven').delay(6000).animate ({left: '-=970',}, randomNumber , 'swing', function() {
+            loop_one();
+        });
+    }
+    loop_one();
+});
+
+//Box 9
+
+$("#btn1").click(function() {
+    function loop_one() {
+      var randomNumber = (Math.floor(Math.random() * 20) * 1000);
+        $('#eight').css({left: 970, top: (Math.floor(Math.random() * 2) * 400)});
+        $('#eight').delay(7000).animate ({left: '-=970',}, randomNumber , 'swing', function() {
+            loop_one();
+        });
+    }
+    loop_one();
+});
+
 // Check if the box collides with Mario
 // Alert a message if box collides with mario
 
