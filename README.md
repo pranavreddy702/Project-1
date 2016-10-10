@@ -3,27 +3,31 @@ Making a game
 
 Description- Mario will automatically move up and down and the user will try to navigate him to the end while objects fly towards him
 
-Overview
 
 
+                                        Overview
+                                        
 
------Create Mario and make him move left, right, up and down-----
+1)-----Create Mario and make him move left, right, up and down-----
 
 // Use animate to perform this task so that Mario moves certain px all directions
 
 
-
-*******Create a flexbox so that mario cannot go beyond that border*******
+2)*******Create a flexbox so that mario cannot go beyond that border*******
 
 // Use flexbox and make the border a cerain size
 // All of your div elements should be inside this flexbox
 
-$$$$$$$ Make div elements move toward Mario automatically $$$$$
+3)*********** Make div elements move toward Mario automatically *********
 
 //Make 5 div elements(boxes) which will move from the right of the screen towards Mario
+// Alert a message when one of the boxes collides with Mario
 
------Create a background that scrolls------
 
--Create objects which move from the right of the screen towards Mario
--Alert 'Game Over ' if an object touches Mario
+4)********Create a background that scrolls************
+
+
+
+5)************Landing Page*************
+
 -Make a Landing page that look like another Landing page
