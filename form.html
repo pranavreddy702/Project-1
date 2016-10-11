@@ -6,6 +6,7 @@
   <title></title>
   <link rel="stylesheet" href="form.css">
   <h1>FORM</h1>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 <body>
 
@@ -30,6 +31,14 @@
     <button type="submit">Submit!</button>
   </div>
 </form>
+
+<script type="text/javascript" charset="utf-8">
+    $('form').on('submit', function(e) {
+      e.preventDefault();
+      window.location.href = 'https://pranavreddy702.github.io/Project-1/game.html';
+    })
+
+</script>
 
 </body>
 </html>
