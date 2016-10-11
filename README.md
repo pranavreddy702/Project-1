@@ -1,7 +1,7 @@
 # Project-1
 Making a game
 
-Description- FInd the real Sonic in under 60 sec. There will be many Sonics but only one is real. 
+Description- FInd the real Sonic in under 90 sec. There will be many Sonics but only one is real. 
 
 
 

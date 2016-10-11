@@ -180,8 +180,6 @@ function checkCollisions(){
   }
 }
 
-//Collision detection for the second box
-
 
 // Create a timer
 // Player wins when the timer runs out
